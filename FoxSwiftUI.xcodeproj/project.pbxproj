@@ -31,6 +31,7 @@
 		2BE766CD2839F05E00EEB18C /* account.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BE766CC2839F05E00EEB18C /* account.json */; };
 		2BE766D12839F38C00EEB18C /* tokenList.json in Resources */ = {isa = PBXBuildFile; fileRef = 2BE766D02839F38C00EEB18C /* tokenList.json */; };
 		2BE766D32839F3E500EEB18C /* FileDataManaer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE766D22839F3E500EEB18C /* FileDataManaer.swift */; };
+		2BE766D7283A301300EEB18C /* PayMethodUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE766D6283A301300EEB18C /* PayMethodUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		2BE766CC2839F05E00EEB18C /* account.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = account.json; sourceTree = "<group>"; };
 		2BE766D02839F38C00EEB18C /* tokenList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tokenList.json; sourceTree = "<group>"; };
 		2BE766D22839F3E500EEB18C /* FileDataManaer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDataManaer.swift; sourceTree = "<group>"; };
+		2BE766D6283A301300EEB18C /* PayMethodUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayMethodUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				2B2D1C442838DFE500C9175A /* Home */,
+				2B2D1C502838DFE500C9175A /* Buy */,
 				2BE766CA2839ED2300EEB18C /* ComingSoonModules */,
 			);
 			path = Modules;
@@ -173,7 +176,8 @@
 		2B2D1C502838DFE500C9175A /* Buy */ = {
 			isa = PBXGroup;
 			children = (
-				2B2D1C512838DFE500C9175A /* BuyView.swift */,
+				2BE766DA283A3D3300EEB18C /* Models */,
+				2BE766D9283A3D2C00EEB18C /* Views */,
 			);
 			path = Buy;
 			sourceTree = "<group>";
@@ -277,7 +281,6 @@
 				2BE766C42839E8D600EEB18C /* Recieve */,
 				2B2D1C4E2838DFE500C9175A /* Sent */,
 				2BE766C72839EC0700EEB18C /* ImportToken */,
-				2B2D1C502838DFE500C9175A /* Buy */,
 			);
 			path = ComingSoonModules;
 			sourceTree = "<group>";
@@ -306,6 +309,22 @@
 				2BE766C12839E5EF00EEB18C /* ComingSoonView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2BE766D9283A3D2C00EEB18C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B2D1C512838DFE500C9175A /* BuyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BE766DA283A3D3300EEB18C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2BE766D6283A301300EEB18C /* PayMethodUtil.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +469,7 @@
 				2B2D1C582838DFE600C9175A /* BuyView.swift in Sources */,
 				2BE766D32839F3E500EEB18C /* FileDataManaer.swift in Sources */,
 				2B70CD872839403100401EC0 /* HiddenNavigationBar.swift in Sources */,
+				2BE766D7283A301300EEB18C /* PayMethodUtil.swift in Sources */,
 				2BE766C62839E8E200EEB18C /* RecieveView.swift in Sources */,
 				2B2D1C562838DFE600C9175A /* SwapView.swift in Sources */,
 				2B2D1C542838DFE600C9175A /* HomeView.swift in Sources */,
