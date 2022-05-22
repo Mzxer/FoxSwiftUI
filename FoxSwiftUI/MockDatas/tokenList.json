@@ -1,0 +1,41 @@
+{
+    "tokens":[
+        {
+            "name":"ETH",
+            "icon":"token_eth",
+            "count":2,
+            "dollar":500
+        },
+        {
+            "name":"aSUSD",
+            "icon":"token_asusd",
+            "count":3,
+            "dollar":150
+        },
+        {
+            "name":"DF",
+            "icon":"token_df",
+            "count":1.5,
+            "dollar":450
+        },
+        {
+            "name":"FRAX",
+            "icon":"token_frax",
+            "count":2.1,
+            "dollar":42
+        },
+        {
+            "name":"SDT",
+            "icon":"token_sdt",
+            "count":1.2,
+            "dollar":20
+        },
+        {
+            "name":"BASIC",
+            "icon":"token_basic",
+            "count":1.3,
+            "dollar":10
+        }
+    ]
+}
+
